@@ -1,5 +1,5 @@
 {
-  "name": "sms-code",
+  "name": "miniprogram-sms-code",
   "version": "1.0.0",
   "description": "",
   "main": "miniprogram_dist/index.js",
