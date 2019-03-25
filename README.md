@@ -45,6 +45,7 @@ npm install --save miniprogram-sms-code
 | is-auto                 | Boolean      | false                     | 否          | 是否自动获取焦点 |
 | unactive-class          | String       | 无                        | 否          | 输入块未输入时和失去焦点的样式类名，用于自定义样式|
 | active-class            | String       | 无                        | 否          | 输入块有值时和获得焦点时的样式列名，用于自定义样式|
+| dot-class               | String       | 无                        | 否          | 输入块密码状态样式，用于自定义样式|
 
 ### 2.方法
 | 方法名                  |  是否必须    | 返回值                    | 说明                                        |

@@ -1,8 +1,8 @@
 Component({
   /**
-   * 允许外部类名，开发者通过设置 sms-class 设置自己的样式覆盖组件默认样式
+   * 允许外部类名，开发者通过设置 以下三个类名 设置自己的样式覆盖组件默认样式
    */
-  externalClasses: ['active-class', 'unactive-class'],
+  externalClasses: ['active-class', 'unactive-class', 'dot-class'],
   /**
    * 父组件传入的值
    */

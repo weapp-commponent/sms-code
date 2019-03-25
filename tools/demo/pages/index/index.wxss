@@ -13,3 +13,7 @@ page{
 .test .sms-active{
   border-color: red;
 }
+
+.test .sms-dot{
+  background: green;
+}

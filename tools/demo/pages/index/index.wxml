@@ -1,3 +1,3 @@
 <view class="test">
-  <comp unactive-class="sms-unActive" active-class="sms-active" code-type="number" code-count="6" is-auto="{{ isAuto }}" bindchangeCode="changeCode"></comp>
+  <comp dot-class="sms-dot" unactive-class="sms-unActive" active-class="sms-active" code-type="password" code-count="6" is-auto="{{ isAuto }}" bindchangeCode="changeCode"></comp>
 </view>
