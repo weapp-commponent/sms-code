@@ -13,6 +13,8 @@
 
 ## 使用方法
 ### 1.安装sms-code
+开启微信的npm构建 [文档](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)
+然后安装
 ```
 npm install --save miniprogram-sms-code
 ```
