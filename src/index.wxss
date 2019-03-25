@@ -1,0 +1,37 @@
+.sms--code{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+.sms--code__item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90rpx;
+  height: 88rpx;
+  border-bottom: 2rpx solid #e8e8e8;
+  color: #666;
+}
+.sms--code__item.active{
+  border-color: #f15a5b;
+}
+.sms--code__item_dot{
+  display: none;
+  width: 20rpx;
+  height: 20rpx;
+  border-radius: 20rpx;
+  background: #666;
+}
+.sms--code__item_dot.active{
+  display: block;
+}
+.sms--code__input{
+  position: absolute;
+  left: -50%;
+  width: 200%; /* 将输入框的宽度设置成大于原大小，用户看不见输入框内容 */
+  height: 100%;
+  opacity: 0;
+  color: transparent;
+}

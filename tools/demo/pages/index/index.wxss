@@ -1,0 +1,15 @@
+page{
+  background: #fff;
+}
+.test{
+  padding: 20rpx;
+}
+
+/*自定义组件样式*/
+/*.test .sms-unActive{*/
+  /*border-color: green;*/
+/*}*/
+
+/*.test .sms-active{*/
+  /*border-color: gold !important;*/
+/*}*/

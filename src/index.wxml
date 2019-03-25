@@ -1,0 +1,11 @@
+<view class="my-sms-class sms--code">
+  <view wx:for="{{valueItem}}" wx:key="item" class="{{currentIndex === item.key && isShowActive ? 'active active-class' : 'unactive-class'}} sms--code__item">
+    <block wx:if="{{ codeType === 'password' }}">
+      <view class="{{ item.key < currentIndex ? 'active' : '' }} sms--code__item_dot"></view>
+    </block>
+    <block wx:else>
+      <view class="isms--code__item_value">{{item.value}}</view>
+    </block>
+  </view>
+  <input type="{{ codeType }}" auto-focus="{{ isAuto }}" maxlength="{{codeCount}}" bindinput="input" bindfocus="focus" bindblur="blur" style="top: {{inputTop}};" class="sms--code__input"></input>
+</view>
