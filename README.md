@@ -73,3 +73,4 @@ npm install --save miniprogram-sms-code
 ```
 ### 3.效果
 ![覆盖组件默认样式](./doc/diyclass_test.gif)
+![覆盖组件默认样式](./doc/diyclass_test2.gif)
