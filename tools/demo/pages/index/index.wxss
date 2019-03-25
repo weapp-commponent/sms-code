@@ -6,10 +6,10 @@ page{
 }
 
 /*自定义组件样式*/
-/*.test .sms-unActive{*/
-  /*border-color: green;*/
-/*}*/
+.test .sms-unActive{
+  border-color: green;
+}
 
-/*.test .sms-active{*/
-  /*border-color: gold !important;*/
-/*}*/
+.test .sms-active{
+  border-color: red;
+}

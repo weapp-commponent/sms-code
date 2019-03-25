@@ -26,7 +26,14 @@ npm install --save miniprogram-sms-code
 ```
 ### 3.在需要使用 sms-code 的页面 .wxml 中引用 sms-code
 ```xml
-<sms-code unactive-class="sms-unActive" active-class="sms-active" code-type="number" code-count="6" is-auto="{{ isAuto }}" bindchangeCode="changeCode"></sms-code>
+<sms-code
+  unactive-class="sms-unActive"
+  active-class="sms-active"
+  code-type="number"
+  code-count="6"
+  is-auto="{{ isAuto }}"
+  bindchangeCode="changeCode">
+</sms-code>
 ```
 
 ## 组件属性
@@ -40,9 +47,9 @@ npm install --save miniprogram-sms-code
 | active-class            | String       | 无                        | 否          | 输入块有值时和获得焦点时的样式列名，用于自定义样式|
 
 ### 2.方法
-| 方法名                   |  是否必须     | 说明                                        |
-|-------------------------|------------- |---------------------------------------------|
-| bindchangeCode          |  是          | 监听输入值的变化                              |
+| 方法名                  |  是否必须    | 返回值                    | 说明                                        |
+|-------------------------|------------- |---------------------------|---------------------------------------------|
+| bindchangeCode          |  是          |e,输入框的值 e.detail.value| 监听输入值的变化                              |
 
 ## 栗子
 ### 覆盖默认样式
@@ -52,3 +59,16 @@ npm install --save miniprogram-sms-code
   <sms-code unactive-class="sms-unActive" active-class="sms-active"  bindchangeCode="changeCode"></sms-code>
 </view>
 ```
+### 2.在引用组件的页面.wxss中，编写自己的样式代码
+```css
+/*自定义组件样式*/
+.test .sms-unActive{
+  border-color: green;
+}
+
+.test .sms-active{
+  border-color: gold;
+}
+```
+### 3.效果
+![覆盖组件默认样式](./doc/diyclass_test.gif)
