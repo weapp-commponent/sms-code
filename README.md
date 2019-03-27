@@ -1,15 +1,15 @@
 # sms-code
 仿京东淘宝6位验证码输入
 >本组件兼容暂未发现兼容问题，适用微信低版本基础库
-
+[github项目地址](https://github.com/weapp-commponent/sms-code)
 ## 效果演示
 密码模式
 
-![密码模式演示](./doc/password_test.gif)
+![密码模式演示](docs/password_test.gif)
 
 短信验证码模式
 
-![短信验证码模式演示](./doc/number_test.gif)
+![短信验证码模式演示](docs/number_test.gif)
 
 ## 使用方法
 ### 1.安装sms-code
@@ -74,5 +74,5 @@ npm install --save miniprogram-sms-code
 }
 ```
 ### 3.效果
-![覆盖组件默认样式](./doc/diyclass_test.gif)
-![覆盖组件默认样式](./doc/diyclass_test2.gif)
+![覆盖组件默认样式](docs/diyclass_test.gif)
+![覆盖组件默认样式](docs/diyclass_test2.gif)
