@@ -5,11 +5,11 @@
 ## 效果演示
 密码模式
 
-![密码模式演示](docs/password_test.gif)
+![密码模式演示](http://img.coderdong.cn/weApp/password_test.gif)
 
 短信验证码模式
 
-![短信验证码模式演示](docs/number_test.gif)
+![短信验证码模式演示](http://img.coderdong.cn/weApp/number_test.gif)
 
 ## 使用方法
 ### 1.安装sms-code
@@ -74,5 +74,5 @@ npm install --save miniprogram-sms-code
 }
 ```
 ### 3.效果
-![覆盖组件默认样式](docs/diyclass_test.gif)
-![覆盖组件默认样式](docs/diyclass_test2.gif)
+![覆盖组件默认样式](http://img.coderdong.cn/weApp/diyclass_test.gif)
+![覆盖组件默认样式](http://img.coderdong.cn/weApp/diyclass_test2.gif)
